@@ -332,13 +332,6 @@ if __name__ == '__main__':
 
     # 构建任务列表
     tasks = [(veh_id, cond_id, df_grp) for (veh_id, cond_id), df_grp in df_clean.groupby(['vehicle_id', '工况ID'], sort=False)]
-    # 多核并行执行
-    # results = []
-    # with ProcessPoolExecutor(max_workers=61) as executor:
-    #     for df_res in tqdm(executor.map(process_task, tasks), total=len(tasks), desc="工况优化："):
-    #         if not df_res.empty:
-    #             results.append(df_res)
-
     TMPDIR = r"I:\qsm_file\跟驰参数默认\数据处理_revised\gurobi_parts（动力学约束）"  # 本地SSD临时目录
     os.makedirs(TMPDIR, exist_ok=True)
 
