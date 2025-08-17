@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+
+    <input>
+        <net-file value="E:\研究内容一\全流程\SUMO仿真-初始\速度配比+IDM跟驰\xml_路网调整\net_final.net.xml" />
+        <route-files value="E:\研究内容一\全流程\SUMO仿真-初始\速度配比+IDM跟驰\xml_路网调整\rou.rou.xml" />
+		<additional-files value="E:\研究内容一\全流程\SUMO仿真-初始\速度配比+IDM跟驰\xml_路网调整\add.add.xml" />
+    </input>
+	
+	<output>
+	
+		<fcd-output.attributes value="id, x, y, type, speed, pos, lane, acceleration, odometer"/>
+        <fcd-output value="仿真浮动车工况数据_1.xml" /> 
+    </output>	
+	
+	<time>
+		<begin value="0" />
+		<end value="4500" />
+	</time>  
+	
+	<simulation>
+		<collision.action value="none" />
+		<collision.stoptime value="10" />
+	</simulation>
+  
+    <processing>
+        <ignore-route-errors value="true" />
+        <tls.actuated.jam-threshold value="30" />
+    </processing>
+
+	<random_number>
+		<seed value="7" synonymes="srand" type="INT" />
+	</random_number>
+	
+    <routing>
+		<device.rerouting.period value="8" />
+		<device.rerouting.probability value="0" />
+        <device.rerouting.adaptation-steps value="8" />
+        <device.rerouting.adaptation-interval value="5" />
+    </routing>
+
+    <report>
+        <verbose value="true" />
+        <duration-log.statistics value="true" />
+        <no-step-log value="true" />
+    </report>
+
+	<viewsettings>
+		<scheme name="real world" />
+		<delay value="0" />
+	</viewsettings>
+
+</configuration>

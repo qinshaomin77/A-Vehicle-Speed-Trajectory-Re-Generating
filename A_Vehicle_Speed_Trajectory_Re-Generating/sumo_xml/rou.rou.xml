@@ -1,0 +1,93 @@
+<routes>
+	<vType id="passenger_3" vClass="passenger" color="1,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="8.33" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3' decel="4.5" emergencyDecel="6"/>
+	<vType id="truck_3" vClass="truck" length="6.25" height="3" color="1,0,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="8.33" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="4.5" emergencyDecel="6"/>
+	<vType id="mpv_3" vClass="passenger" length="5.5" height="2.25" color="0,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="8.33" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="4.5" emergencyDecel="6" />
+
+	<vType id="passenger_4" vClass="passenger" color="1,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="11.11" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="4.5" emergencyDecel="6"/>
+	<vType id="truck_4" vClass="truck" length="6.25" height="3" color="1,0,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="11.11" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="4.5" emergencyDecel="6"/>
+	<vType id="mpv_4" vClass="passenger" length="5.5" height="2.25" color="0,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="11.11" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="4.5" emergencyDecel="6"/>
+
+	<vType id="passenger_5" vClass="passenger" color="1,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="13.89" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="2.78" emergencyDecel="5.56"/>
+	<vType id="truck_5" vClass="truck" length="6.25" height="3" color="1,0,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="13.89" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="2.78" emergencyDecel="5.56"/>	
+	<vType id="mpv_5" vClass="passenger" length="5.5" height="2.25" color="0,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="13.89" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3' decel="2.78" emergencyDecel="5.56"/>
+	
+	<vType id="passenger_6" vClass="passenger" color="1,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="16.667" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3' decel="3.02" emergencyDecel="6.04"/>
+	<vType id="truck_6" vClass="truck" length="6.25" height="3" color="1,0,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="16.667" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="3.02" emergencyDecel="6.04"/>
+	<vType id="mpv_6" vClass="passenger" length="5.5" height="2.25" color="0,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="16.667" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="3.02" emergencyDecel="6.04" />
+
+	<vType id="passenger_7" vClass="passenger" color="1,1,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="19.44" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="3.02" emergencyDecel="6.04"/>	
+	<vType id="truck_7" vClass="truck" length="6.25" height="3" color="1,0,0" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" speedMode="17" maxSpeed="19.44" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="3.02" emergencyDecel="6.04" />	
+	<vType id="mpv_7" vClass="passenger" length="5.5" height="2.25" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="3.0" lcKeepRight="0.05" lcAssertive="3.0" lcImpatience="2.0" color="0,1,0" speedMode="17" maxSpeed="19.44" carFollowModel="W99" minGap="2.75" cc1="1.5" cc2="8" cc3="-12" cc7="0.25" cc8="2"  accel='3'  decel="3.02" emergencyDecel="6.04" />
+	
+	<vTypeDistribution id="changji_left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="272 0 2 95 0 2 1 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="changji_straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="34 0 3 5 0 0 1 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="changji_right-left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="8 0 1 19 1 2 21 0 1 12 0 1 1 0 0" />
+	<vTypeDistribution id="changji_right-right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="2 0 0 7 0 0 7 0 0 1 0 0 0 0 0" />
+	<vTypeDistribution id="changji_right-straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="5 0 0 25 1 1 24 0 0 14 0 0 0 0 0" />
+
+	<vTypeDistribution id="jiashi1_left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="78 29 18 9 1 0 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="jiashi1_right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="90 5 6 40 0 0 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="jiashi1_straight-left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="3 1 0 12 4 3 29 0 1 6 0 0 2 1 0" />
+	<vTypeDistribution id="jiashi1_straight-right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="4 0 0 15 0 0 15 0 1 3 0 0 0 0 0" />
+	<vTypeDistribution id="jiashi1_straight-straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="13 13 1 104 27 11 211 19 8 44 4 4 9 1 0" />
+
+	<vTypeDistribution id="lvhuan_right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="37 11 8 6 0 1 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="lvhuan_straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="43 4 3 19 0 0 3 2 0 3 0 0 0 0 0" />
+	<vTypeDistribution id="lvhuan_left-left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="36 4 2 36 4 2 36 4 2 12 0 0 6 0 0" />
+	<vTypeDistribution id="lvhuan_left-right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="1 1 0 2 0 0 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="lvhuan_left-straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="5 1 0 5 1 2 17 1 0 2 0 0 0 0 0" />
+
+	<vTypeDistribution id="jiashi2_left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="48 0 1 8 0 0 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="jiashi2_right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="62 29 9 4 0 0 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="jiashi2_straight-left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="4 1 0 25 1 1 22 2 0 5 0 0 1 0 0" />
+	<vTypeDistribution id="jiashi2_straight-right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="1 1 1 5 1 1 3 2 3 0 0 0 0 0 0" />
+	<vTypeDistribution id="jiashi2_straight-straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="9 12 1 76 39 12 168 12 14 88 3 2 17 1 1" />
+
+	<vTypeDistribution id="chungui_left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="101 8 6 7 0 0 1 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="chungui_straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="34 0 2 0 0 0 1 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="chungui_right-left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="0 1 0 6 1 1 6 1 0 0 0 0 1 0 0" />
+	<vTypeDistribution id="chungui_right-right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="45 5 6 45 2 6 47 1 6 47 0 0 0 0 0" />
+	<vTypeDistribution id="chungui_right-straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="1 1 0 19 1 3 6 0 2 1 0 0 0 0 0" />
+
+	<vTypeDistribution id="xiaoqu_right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="45 0 1 0 0 0 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="xiaoqu_straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="21 1 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="xiaoqu_left-left" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="2 0 0 5 0 0 4 0 1 0 0 0 0 0 0" />
+	<vTypeDistribution id="xiaoqu_left-right" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+	<vTypeDistribution id="xiaoqu_left-straight" vTypes="passenger_3 truck_3 mpv_3 passenger_4 truck_4 mpv_4 passenger_5 truck_5 mpv_5 passenger_6 truck_6 mpv_6 passenger_7 truck_7 mpv_7" probabilities="0 0 0 12 0 0 6 0 1 1 0 0 0 0 0" />
+
+    <flow id="changji_left" begin="0.00" from="changjidong_we_1" to="jiashi_sn_2" end="5400.00" vehsPerHour="400" type="changji_left" departPos="free" departLane="free" departSpeed="last" />
+	<flow id="changji_straight" begin="0.00" from="changjidong_we_1" to="lvhuan_we_0" end="5400.00" vehsPerHour="56" type="changji_straight" departPos="free" departLane="free" departSpeed="last" />
+	<flow id="changji_right-left" begin="0.00" from="changjidong_we_1" to="chungui_we_0" end="5400.00" vehsPerHour="89" type="changji_right-left" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="changji_right-right" begin="0.00" from="changjidong_we_1" to="xiaoqu_ew_0" end="5400.00" vehsPerHour="22" type="changji_right-right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="changji_right-straight" begin="0.00" from="changjidong_we_1" to="jiashi_ns_4" end="5400.00" vehsPerHour="86" type="changji_right-straight" departPos="free" departLane="free" departSpeed="last" />
+
+	<flow id="jiashi1_left" begin="0.00" from="jiashi_ns_1" to="lvhuan_we_0" end="5400.00" vehsPerHour="155" type="jiashi1_left" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="jiashi1_right" begin="0.00" from="jiashi_ns_1" to="changjidong_ew_0" end="5400.00" vehsPerHour="162" type="jiashi1_right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="jiashi1_straight-left" begin="0.00" from="jiashi_ns_1" to="chungui_we_0" end="5400.00" vehsPerHour="70" type="jiashi1_straight-left" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="jiashi1_straight-right" begin="0.00" from="jiashi_ns_1" to="xiaoqu_ew_0" end="5400.00" vehsPerHour="41" type="jiashi1_straight-right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="jiashi1_straight-straight" begin="0.00" from="jiashi_ns_1" to="jiashi_ns_4" end="5400.00" vehsPerHour="540" type="jiashi1_straight-straight" departPos="free" departLane="free" departSpeed="last" />
+	
+    <flow id="lvhuan_right" begin="0.00" from="lvhuan_ew_0" to="jiashi_sn_2" end="5400.00" vehsPerHour="72" type="lvhuan_right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="lvhuan_straight" begin="0.00" from="lvhuan_ew_0" to="changjidong_ew_0" end="5400.00" vehsPerHour="82" type="lvhuan_straight" departPos="free" departLane="free" departSpeed="last" />
+	<flow id="lvhuan_left-left" begin="0.00" from="lvhuan_ew_0" to="chungui_we_0" end="5400.00" vehsPerHour="10" type="lvhuan_left-left" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="lvhuan_left-right" begin="0.00" from="lvhuan_ew_0" to="xiaoqu_ew_0" end="5400.00" vehsPerHour="16" type="lvhuan_left-right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="lvhuan_left-straight" begin="0.00" from="lvhuan_ew_0" to="jiashi_ns_4" end="5400.00" vehsPerHour="5" type="lvhuan_left-straight" departPos="free" departLane="free" departSpeed="last" />
+
+	<flow id="jiashi2_left" begin="0.00" from="jiashi_sn_0" to="xiaoqu_ew_0" end="5400.00" vehsPerHour="63" type="jiashi2_left" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="jiashi2_right" begin="0.00" from="jiashi_sn_0" to="chungui_we_0" end="5400.00" vehsPerHour="108" type="jiashi2_right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="jiashi2_straight-left" begin="0.00" from="jiashi_sn_0" to="changjidong_ew_0" end="5400.00" vehsPerHour="69" type="jiashi2_straight-left" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="jiashi2_straight-right" begin="0.00" from="jiashi_sn_0" to="lvhuan_we_0" end="5400.00" vehsPerHour="18" type="jiashi2_straight-right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="jiashi2_straight-straight" begin="0.00" from="jiashi_sn_0" to="jiashi_sn_2" end="5400.00" vehsPerHour="520" type="jiashi2_straight-straight" departPos="free" departLane="free" departSpeed="last" />
+    
+	<flow id="chungui_left" begin="0.00" from="chungui_ew_0" to="jiashi_ns_4" end="5400.00" vehsPerHour="133" type="chungui_left" departPos="free" departLane="free" departSpeed="last" />
+	<flow id="chungui_straight" begin="0.00" from="chungui_ew_0" to="xiaoqu_ew_0" end="5400.00" vehsPerHour="35" type="chungui_straight" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="chungui_right-left" begin="0.00" from="chungui_ew_0" to="changjidong_ew_0" end="5400.00" vehsPerHour="17" type="chungui_right-left" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="chungui_right-right" begin="0.00" from="chungui_ew_0" to="lvhuan_we_0" end="5400.00" vehsPerHour="10" type="chungui_right-right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="chungui_right-straight" begin="0.00" from="chungui_ew_0" to="jiashi_sn_2" end="5400.00" vehsPerHour="35" type="chungui_right-straight" departPos="free" departLane="free" departSpeed="last" />
+                     
+	<flow id="xiaoqu_right" begin="0.00" from="xiaoqu_we_0" to="jiashi_ns_4" end="5400.00" vehsPerHour="54" type="xiaoqu_right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="xiaoqu_left-left" begin="0.00" from="xiaoqu_we_0" to="changjidong_ew_0" end="5400.00" vehsPerHour="10" type="xiaoqu_left-left" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="xiaoqu_left-right" begin="0.00" from="xiaoqu_we_0" to="lvhuan_we_0" end="5400.00" vehsPerHour="7" type="xiaoqu_left-right" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="xiaoqu_left-straight" begin="0.00" from="xiaoqu_we_0" to="jiashi_sn_2" end="5400.00" vehsPerHour="31" type="xiaoqu_left-straight" departPos="free" departLane="free" departSpeed="last" />
+    <flow id="xiaoqu_straight" begin="0.00" from="xiaoqu_we_0" to="chungui_we_0" end="5400.00" vehsPerHour="23" type="xiaoqu_straight" departPos="free" departLane="free" departSpeed="last" />
+</routes>
