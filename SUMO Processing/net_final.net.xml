@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='utf-8'?>
+<net xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="3047876.05,-114060.25" convBoundary="-748.82,-799.24,863.00,193.38" origBoundary="121.214324,31.285590,121.224172,31.307702" projParameter="+proj=utm +zone=51 +ellps=WGS84 +datum=WGS84 +units=m +no_defs" />
+
+    <type id="highway.primary" priority="12" numLanes="2" speed="19.44" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" oneway="0" />
+    <type id="highway.tertiary" priority="10" numLanes="1" speed="19.44" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" oneway="0" />
+
+    <edge id=":J0_0" function="internal">
+        <lane id=":J0_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="0.27" width="3.75" shape="248.60,-64.19 248.92,-64.18" />
+        <lane id=":J0_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="0.27" width="3.75" shape="248.57,-60.44 248.79,-60.43" />
+    </edge>
+    <edge id=":jiashibei-changjidong_0" function="internal">
+        <lane id=":jiashibei-changjidong_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="13.07" width="3.75" shape="64.44,-47.33 63.85,-50.67 62.23,-53.07 59.57,-54.55 55.87,-55.10" />
+    </edge>
+    <edge id=":jiashibei-changjidong_1" function="internal">
+        <lane id=":jiashibei-changjidong_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="28.66" width="3.75" shape="64.44,-47.33 64.68,-76.03" />
+        <lane id=":jiashibei-changjidong_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="28.66" width="3.75" shape="68.18,-47.49 68.42,-76.11" />
+    </edge>
+    <edge id=":jiashibei-changjidong_3" function="internal">
+        <lane id=":jiashibei-changjidong_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="30.79" width="3.75" shape="68.18,-47.49 69.54,-53.87 73.86,-58.39 81.13,-61.06 91.36,-61.88" />
+    </edge>
+    <edge id=":jiashibei-changjidong_4" function="internal">
+        <lane id=":jiashibei-changjidong_4_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="16.12" width="3.75" shape="91.29,-53.62 85.32,-53.36 81.09,-52.32 78.60,-50.49 77.86,-47.89" />
+    </edge>
+    <edge id=":jiashibei-changjidong_5" function="internal">
+        <lane id=":jiashibei-changjidong_5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="35.43" width="3.75" shape="91.29,-53.62 55.87,-55.10" />
+        <lane id=":jiashibei-changjidong_5_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="35.43" width="3.75" shape="91.32,-57.37 55.95,-58.84" />
+    </edge>
+    <edge id=":jiashibei-changjidong_7" function="internal">
+        <lane id=":jiashibei-changjidong_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="36.46" width="3.75" shape="91.32,-57.37 79.80,-58.72 71.52,-62.28 66.48,-68.05 64.68,-76.03" />
+        <lane id=":jiashibei-changjidong_7_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="33.36" width="3.75" shape="91.32,-57.37 81.44,-58.70 74.34,-62.26 70.00,-68.07 68.42,-76.11" />
+    </edge>
+    <edge id=":jiashibei-changjidong_9" function="internal">
+        <lane id=":jiashibei-changjidong_9_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="13.66" width="3.75" shape="85.59,-76.46 85.93,-71.74 87.01,-68.37 88.83,-66.33 91.40,-65.63" />
+    </edge>
+    <edge id=":jiashibei-changjidong_10" function="internal">
+        <lane id=":jiashibei-changjidong_10_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="28.85" width="3.75" shape="81.84,-76.38 81.13,-67.27 79.66,-60.49 78.29,-54.53 77.86,-47.89" />
+    </edge>
+    <edge id=":jiashibei-changjidong_11" function="internal">
+        <lane id=":jiashibei-changjidong_11_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="35.13" width="3.75" shape="78.09,-76.30 76.66,-66.87 72.47,-60.19 65.55,-56.26 55.87,-55.10" />
+        <lane id=":jiashibei-changjidong_11_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="28.95" width="3.75" shape="74.34,-76.23 73.15,-68.49 69.69,-63.02 63.95,-59.80 55.95,-58.84" />
+    </edge>
+    <edge id=":jiashibei-changjidong_13" function="internal">
+        <lane id=":jiashibei-changjidong_13_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="11.69" width="3.75" shape="56.16,-70.38 59.93,-70.60 62.61,-71.62 64.19,-73.43 64.68,-76.03" />
+    </edge>
+    <edge id=":jiashibei-changjidong_14" function="internal">
+        <lane id=":jiashibei-changjidong_14_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="35.34" width="3.75" shape="56.09,-66.63 91.40,-65.63" />
+        <lane id=":jiashibei-changjidong_14_1" index="1" disallow="army pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="35.34" width="3.75" shape="56.02,-62.88 91.36,-61.88" />
+    </edge>
+    <edge id=":jiashibei-changjidong_16" function="internal">
+        <lane id=":jiashibei-changjidong_16_0" index="0" disallow="army pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="29.41" width="3.75" shape="56.02,-62.88 65.35,-61.63 72.10,-58.72 76.27,-54.14 77.86,-47.89" />
+        <lane id=":jiashibei-changjidong_16_1" index="1" disallow="army pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="26.39" width="3.75" shape="56.02,-62.88 63.71,-61.68 69.29,-58.75 72.75,-54.11 74.11,-47.73" />
+    </edge>
+    <edge id=":jiashibei-chungui_0" function="internal">
+        <lane id=":jiashibei-chungui_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="11.85" width="3.75" shape="356.17,-41.45 355.71,-44.74 354.37,-47.11 352.15,-48.56 349.05,-49.10" />
+    </edge>
+    <edge id=":jiashibei-chungui_1" function="internal">
+        <lane id=":jiashibei-chungui_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="25.61" width="3.75" shape="359.92,-41.58 358.79,-67.16" />
+    </edge>
+    <edge id=":jiashibei-chungui_2" function="internal">
+        <lane id=":jiashibei-chungui_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="26.18" width="3.75" shape="359.92,-41.58 360.92,-48.64 363.97,-53.67 369.08,-56.68 376.24,-57.66" />
+    </edge>
+    <edge id=":jiashibei-chungui_3" function="internal">
+        <lane id=":jiashibei-chungui_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="9.94" width="3.75" shape="376.20,-48.41 373.62,-48.02 371.80,-46.82 370.75,-44.79 370.48,-41.95" />
+    </edge>
+    <edge id=":jiashibei-chungui_4" function="internal">
+        <lane id=":jiashibei-chungui_4_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="27.13" width="3.75" shape="376.20,-48.41 349.05,-49.10" />
+        <lane id=":jiashibei-chungui_4_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="27.13" width="3.75" shape="376.22,-52.16 349.13,-52.84" />
+    </edge>
+    <edge id=":jiashibei-chungui_6" function="internal">
+        <lane id=":jiashibei-chungui_6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="10.77" width="3.75" shape="376.22,-52.16 368.69,-53.14 365.88,-54.61" />
+    </edge>
+    <edge id=":jiashibei-chungui_16" function="internal">
+        <lane id=":jiashibei-chungui_16_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="15.29" width="3.75" shape="365.88,-54.61 363.27,-55.97 359.97,-60.64 358.79,-67.16" />
+    </edge>
+    <edge id=":jiashibei-chungui_7" function="internal">
+        <lane id=":jiashibei-chungui_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="12.98" width="3.75" shape="366.22,-67.29 366.87,-64.73 368.76,-62.90 371.89,-61.79 376.26,-61.41" />
+    </edge>
+    <edge id=":jiashibei-chungui_8" function="internal">
+        <lane id=":jiashibei-chungui_8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="25.60" width="3.75" shape="366.22,-67.29 366.86,-62.62 368.24,-56.49 369.68,-49.42 370.48,-41.95" />
+        <lane id=":jiashibei-chungui_8_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="25.60" width="3.75" shape="366.22,-67.29 366.73,-41.82" />
+    </edge>
+    <edge id=":jiashibei-chungui_10" function="internal">
+        <lane id=":jiashibei-chungui_10_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="25.65" width="3.75" shape="366.22,-67.29 365.21,-60.83 362.02,-56.28 356.66,-53.61 349.13,-52.84" />
+    </edge>
+    <edge id=":jiashibei-chungui_11" function="internal">
+        <lane id=":jiashibei-chungui_11_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="13.04" width="3.75" shape="349.29,-60.81 353.49,-61.09 356.47,-62.24 358.24,-64.26 358.79,-67.16" />
+    </edge>
+    <edge id=":jiashibei-chungui_12" function="internal">
+        <lane id=":jiashibei-chungui_12_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="27.00" width="3.75" shape="349.29,-60.81 376.26,-61.41" />
+        <lane id=":jiashibei-chungui_12_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="27.00" width="3.75" shape="349.22,-57.06 376.24,-57.66" />
+    </edge>
+    <edge id=":jiashibei-chungui_14" function="internal">
+        <lane id=":jiashibei-chungui_14_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="29.08" width="3.75" shape="349.22,-57.06 358.33,-55.86 364.91,-52.94 368.96,-48.30 370.48,-41.95" />
+        <lane id=":jiashibei-chungui_14_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="10" length="26.06" width="3.75" shape="349.22,-57.06 356.69,-55.90 362.10,-52.97 365.45,-48.27 366.73,-41.82" />
+    </edge>
+
+    <edge id="changjidong_ew_0" from="jiashibei-changjidong" to="3459236793" name="昌吉东路east_to_west" priority="10" type="highway.tertiary" spreadType="center" length="143.65" shape="66.68,-69.70 63.31,-234.52">
+        <lane id="changjidong_ew_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9" length="143.65" width="3.75" shape="64.68,-76.03 61.44,-234.48">
+            <param key="origId" value="322110434" />
+        </lane>
+        <lane id="changjidong_ew_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9" length="143.65" width="3.75" shape="68.42,-76.11 65.18,-234.56">
+            <param key="origId" value="322110434" />
+        </lane>
+        <param key="origFrom" value="3459234288" />
+    </edge>
+    <edge id="changjidong_we_1" from="changjidong_we_0.5" to="jiashibei-changjidong" name="昌吉东路west_to_east" priority="10" type="highway.tertiary" spreadType="center" length="1054.00" shape="84.21,-799.24 79.92,-68.30">
+        <lane id="changjidong_we_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9" length="1054.00" width="3.75" shape="89.83,-799.21 85.59,-76.46">
+            <param key="origId" value="338789901" />
+        </lane>
+        <lane id="changjidong_we_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9" length="1054.00" width="3.75" shape="86.08,-799.23 81.84,-76.38">
+            <param key="origId" value="338789901" />
+        </lane>
+        <lane id="changjidong_we_1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9" length="1054.00" width="3.75" shape="82.34,-799.25 78.09,-76.30">
+            <param key="origId" value="338789901" />
+        </lane>
+        <lane id="changjidong_we_1_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9" length="1054.00" width="3.75" shape="78.59,-799.27 74.34,-76.23">
+            <param key="origId" value="338789901" />
+        </lane>
+        <param key="origTo" value="1759597674" />
+    </edge>
+    <edge id="chungui_ew_0" from="J3" to="jiashibei-chungui" name="春归路" priority="10" type="highway.tertiary" length="181.43" shape="362.67,193.38 361.79,-42.24">
+        <lane id="chungui_ew_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="8.5" length="181.43" width="3.75" shape="357.05,193.40 356.17,-41.45">
+            <param key="origId" value="168457273" />
+        </lane>
+        <lane id="chungui_ew_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="8.5" length="181.43" width="3.75" shape="360.80,193.39 359.92,-41.58">
+            <param key="origId" value="168457273" />
+        </lane>
+        <param key="origTo" value="1759598037" />
+    </edge>
+    <edge id="chungui_we_0" from="jiashibei-chungui" to="J2" name="春归路" priority="10" type="highway.tertiary" length="174.34" shape="364.86,-41.75 372.76,184.75">
+        <lane id="chungui_we_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="8.5" length="174.34" width="3.75" shape="370.48,-41.95 378.38,184.55">
+            <param key="origId" value="168457273" />
+        </lane>
+        <lane id="chungui_we_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="8.5" length="174.34" width="3.75" shape="366.73,-41.82 374.63,184.68">
+            <param key="origId" value="168457273" />
+        </lane>
+        <param key="origFrom" value="1759598037" />
+    </edge>
+    <edge id="jiashi_ns_1" from="jiashi_ns_0.5" to="jiashibei-changjidong" name="嘉松北路north_to_south1" priority="12" type="highway.primary" spreadType="center" length="825.56" shape="-748.82,-97.55 55.71,-66.64">
+        <lane id="jiashi_ns_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="11.97" length="825.56" width="3.75" shape="-748.68,-101.30 56.16,-70.38">
+            <param key="origId" value="108718537 108718490 108718550" />
+        </lane>
+        <lane id="jiashi_ns_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="11.97" length="825.56" width="3.75" shape="-748.82,-97.55 56.09,-66.63">
+            <param key="origId" value="108718537 108718490 108718550" />
+        </lane>
+        <lane id="jiashi_ns_1_2" index="2" disallow="army pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="11.97" length="825.56" width="3.75" shape="-748.96,-93.80 56.02,-62.88">
+            <param key="origId" value="108718537 108718490 108718550" />
+        </lane>
+        <param key="origTo" value="3459234288" />
+        <param key="ref" value="S224" />
+    </edge>
+    <edge id="jiashi_ns_2" from="jiashibei-changjidong" to="J0" name="嘉松北路north_to_south2" priority="12" type="highway.primary" spreadType="center" length="161.48" shape="90.04,-63.77 248.72,-62.31">
+        <lane id="jiashi_ns_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="15.5" length="161.48" width="3.75" shape="91.40,-65.63 248.60,-64.19">
+            <param key="origId" value="1298839506 108718491 1298839505" />
+        </lane>
+        <lane id="jiashi_ns_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="15.5" length="161.48" width="3.75" shape="91.36,-61.88 248.57,-60.44">
+            <param key="origId" value="1298839506 108718491 1298839505" />
+        </lane>
+        <param key="origFrom" value="1759597674" />
+        <param key="origTo" value="1759597941" />
+        <param key="ref" value="S224" />
+    </edge>
+    <edge id="jiashi_ns_3" from="J0" to="jiashibei-chungui" name="嘉松北路north_to_south2" priority="12" type="highway.primary" spreadType="center" length="99.20" shape="248.72,-62.31 351.29,-58.87">
+        <lane id="jiashi_ns_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="15.5" length="99.20" width="3.75" shape="248.92,-64.18 349.29,-60.81">
+            <param key="origId" value="1298839506 108718491 1298839505" />
+        </lane>
+        <lane id="jiashi_ns_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="15.5" length="99.20" width="3.75" shape="248.79,-60.43 349.22,-57.06">
+            <param key="origId" value="1298839506 108718491 1298839505" />
+        </lane>
+        <param key="origFrom" value="1759597674" />
+        <param key="origTo" value="1759597941" />
+        <param key="ref" value="S224" />
+    </edge>
+    <edge id="jiashi_ns_4" from="jiashibei-chungui" to="jiashi_ns_endpoint" name="嘉松北路north_to_south3" priority="12" type="highway.primary" spreadType="center" length="489.81" shape="374.46,-59.54 863.00,-57.44">
+        <lane id="jiashi_ns_4_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16" length="489.81" width="3.75" shape="376.26,-61.41 863.01,-59.31">
+            <param key="origId" value="108718520" />
+        </lane>
+        <lane id="jiashi_ns_4_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16" length="489.81" width="3.75" shape="376.24,-57.66 862.99,-55.57">
+            <param key="origId" value="108718520" />
+        </lane>
+        <param key="origFrom" value="1759597941" />
+        <param key="ref" value="S224" />
+    </edge>
+    <edge id="jiashi_sn_0" from="jiashi_sn_startpoint" to="jiashibei-chungui" name="嘉松北路south_to_north1" priority="12" type="highway.primary" spreadType="center" length="486.24" shape="860.88,-47.02 374.53,-50.30">
+        <lane id="jiashi_sn_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="14.67" length="486.24" width="3.75" shape="860.87,-45.15 376.20,-48.41">
+            <param key="origId" value="108718517" />
+        </lane>
+        <lane id="jiashi_sn_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="14.67" length="486.24" width="3.75" shape="860.89,-48.89 376.22,-52.16">
+            <param key="origId" value="108718517" />
+        </lane>
+        <param key="origTo" value="1759598037" />
+        <param key="ref" value="S224" />
+    </edge>
+    <edge id="jiashi_sn_1" from="jiashibei-chungui" to="jiashibei-changjidong" name="嘉松北路south_to_north2" priority="12" type="highway.primary" spreadType="center" length="258.42" shape="349.09,-50.97 295.76,-52.08 276.34,-52.12 89.11,-55.54">
+        <lane id="jiashi_sn_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="15.43" length="258.42" width="3.75" shape="349.05,-49.10 295.74,-50.21 276.32,-50.25 91.29,-53.62">
+            <param key="origId" value="1298839514 108718523 108718527" />
+        </lane>
+        <lane id="jiashi_sn_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="15.43" length="258.42" width="3.75" shape="349.13,-52.84 295.78,-53.95 276.36,-53.99 91.32,-57.37">
+            <param key="origId" value="1298839514 108718523 108718527" />
+        </lane>
+        <param key="origFrom" value="1759598037" />
+        <param key="origTo" value="1759597726" />
+        <param key="ref" value="S224" />
+    </edge>
+    <edge id="jiashi_sn_2" from="jiashibei-changjidong" to="jiashi_sn_endpoint" name="嘉松北路south_to_north3" priority="12" type="highway.primary" spreadType="center" length="1445.80" shape="55.91,-56.97 -746.69,-72.16">
+        <lane id="jiashi_sn_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.85" length="1445.80" width="3.75" shape="55.87,-55.10 -746.73,-70.29">
+            <param key="origId" value="1298839513 108718557 108718513" />
+        </lane>
+        <lane id="jiashi_sn_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.85" length="1445.80" width="3.75" shape="55.95,-58.84 -746.65,-74.03">
+            <param key="origId" value="1298839513 108718557 108718513" />
+        </lane>
+        <param key="origFrom" value="3459234286" />
+        <param key="ref" value="S224" />
+    </edge>
+    <edge id="lvhuan_ew_0" from="J5" to="jiashibei-changjidong" name="绿环路east_to_west" priority="10" type="highway.tertiary" length="181.43" shape="73.64,168.10 70.04,-48.67">
+        <lane id="lvhuan_ew_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9.3" length="181.43" width="3.75" shape="68.02,168.19 64.44,-47.33">
+            <param key="origId" value="164316075" />
+        </lane>
+        <lane id="lvhuan_ew_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9.3" length="181.43" width="3.75" shape="71.77,168.13 68.18,-47.49">
+            <param key="origId" value="164316075" />
+        </lane>
+        <param key="origTo" value="1759597726" />
+    </edge>
+    <edge id="lvhuan_we_0" from="jiashibei-changjidong" to="J4" name="绿环路west_to_east" priority="10" type="highway.tertiary" length="184.21" shape="72.23,-47.79 81.16,166.99">
+        <lane id="lvhuan_we_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9.3" length="184.21" width="3.75" shape="77.86,-47.89 86.78,166.76">
+            <param key="origId" value="164316075" />
+        </lane>
+        <lane id="lvhuan_we_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9.3" length="184.21" width="3.75" shape="74.11,-47.73 83.03,166.91">
+            <param key="origId" value="164316075" />
+        </lane>
+        <param key="origFrom" value="1759597726" />
+    </edge>
+    <edge id="xiaoqu_ew_0" from="jiashibei-chungui" to="J6" priority="-1" length="38.10" shape="360.78,-60.16 353.87,-477.39">
+        <lane id="xiaoqu_ew_0_0" index="0" speed="6" length="38.10" width="3.75" shape="358.79,-67.16 352.00,-477.36" />
+    </edge>
+    <edge id="xiaoqu_we_0" from="J1" to="jiashibei-chungui" priority="-1" length="571.34" shape="360.05,-479.70 364.41,-60.61">
+        <lane id="xiaoqu_we_0_0" index="0" speed="6" length="571.34" width="3.75" shape="361.92,-479.72 366.22,-67.29" />
+    </edge>
+
+    <tlLogic id="light_jiashibei-changjidong" type="static" programID="0" offset="0">
+        <phase duration="85" state="grrrGGGGGgrrrGGGGG" name="南北相位" />
+        <phase duration="3" state="grrrGyyyygrrrGyyyy" />
+        <phase duration="2" state="GrrrGyyyyGrrrGyyyy" />
+        <phase duration="32" state="GggGGrrrrGrGGgrrrr" name="东西左转" />
+        <phase duration="3" state="GGgGGrrrrGryygrrrr" />
+        <phase duration="30" state="GGGrgrrrrGGrrgrrrr" name="东西直行" />
+        <phase duration="3" state="GyyrGrrrrGyrrGrrrr" />
+        <phase duration="2" state="GrrrGrrrrGrrrGrrrr" />
+    </tlLogic>
+    <tlLogic id="light_jiashibei-chungui" type="static" programID="0" offset="0">
+        <phase duration="74" state="grrGGGggrrrGGGGG" name="南北相位" />
+        <phase duration="3" state="grrGyyygrrrGyyyy" />
+        <phase duration="5" state="grrgrrrgrrrgrrrr" />
+        <phase duration="30" state="GGGgrrrGGGGgrrrr" name="东西相位" />
+        <phase duration="3" state="GyygrrrGyyygrrrr" />
+        <phase duration="5" state="grrgrrrgrrrgrrrr" />
+    </tlLogic>
+
+    <junction id="3459236793" type="dead_end" x="63.31" y="-234.52" incLanes="changjidong_ew_0_0 changjidong_ew_0_1" intLanes="" shape="59.56,-234.44 67.06,-234.60" />
+    <junction id="J0" type="priority" x="248.72" y="-62.31" incLanes="jiashi_ns_2_0 jiashi_ns_2_1" intLanes=":J0_0_0 :J0_0_1" shape="248.73,-58.56 248.98,-66.05 248.62,-66.06 248.55,-58.56">
+        <request index="0" response="00" foes="00" cont="0" />
+        <request index="1" response="00" foes="00" cont="0" />
+    </junction>
+    <junction id="J1" type="dead_end" x="360.05" y="-479.70" incLanes="" intLanes="" shape="360.05,-479.70 363.80,-479.74" />
+    <junction id="J2" type="dead_end" x="372.76" y="184.75" incLanes="chungui_we_0_0 chungui_we_0_1" intLanes="" shape="380.26,184.49 372.76,184.75" />
+    <junction id="J3" type="dead_end" x="362.67" y="193.38" incLanes="" intLanes="" shape="362.67,193.38 355.17,193.41" />
+    <junction id="J4" type="dead_end" x="81.16" y="166.99" incLanes="lvhuan_we_0_0 lvhuan_we_0_1" intLanes="" shape="88.65,166.68 81.16,166.99" />
+    <junction id="J5" type="dead_end" x="73.64" y="168.10" incLanes="" intLanes="" shape="73.64,168.10 66.14,168.22" />
+    <junction id="J6" type="dead_end" x="353.87" y="-477.39" incLanes="xiaoqu_ew_0_0" intLanes="" shape="350.12,-477.33 353.87,-477.39" />
+    <junction id="changjidong_we_0.5" type="dead_end" x="84.21" y="-799.24" incLanes="" intLanes="" shape="76.71,-799.28 91.71,-799.20" name="changjidong_cross" />
+    <junction id="jiashi_ns_0.5" type="dead_end" x="-748.82" y="-97.55" incLanes="" intLanes="" shape="-749.04,-91.93 -748.60,-103.17" />
+    <junction id="jiashi_ns_endpoint" type="dead_end" x="863.00" y="-57.44" incLanes="jiashi_ns_4_0 jiashi_ns_4_1" intLanes="" shape="863.02,-61.19 862.98,-53.69" />
+    <junction id="jiashi_sn_endpoint" type="dead_end" x="-746.69" y="-72.16" incLanes="jiashi_sn_2_0 jiashi_sn_2_1" intLanes="" shape="-746.76,-68.41 -746.62,-75.91" />
+    <junction id="jiashi_sn_startpoint" type="dead_end" x="860.88" y="-47.02" incLanes="" intLanes="" shape="860.91,-50.77 860.85,-43.27" />
+    <junction id="jiashibei-changjidong" type="traffic_light" x="76.05" y="-61.34" incLanes="lvhuan_ew_0_0 lvhuan_ew_0_1 jiashi_sn_1_0 jiashi_sn_1_1 changjidong_we_1_0 changjidong_we_1_1 changjidong_we_1_2 changjidong_we_1_3 jiashi_ns_1_0 jiashi_ns_1_1 jiashi_ns_1_2" intLanes=":jiashibei-changjidong_0_0 :jiashibei-changjidong_1_0 :jiashibei-changjidong_1_1 :jiashibei-changjidong_3_0 :jiashibei-changjidong_4_0 :jiashibei-changjidong_5_0 :jiashibei-changjidong_5_1 :jiashibei-changjidong_7_0 :jiashibei-changjidong_7_1 :jiashibei-changjidong_9_0 :jiashibei-changjidong_10_0 :jiashibei-changjidong_11_0 :jiashibei-changjidong_11_1 :jiashibei-changjidong_13_0 :jiashibei-changjidong_14_0 :jiashibei-changjidong_14_1 :jiashibei-changjidong_16_0 :jiashibei-changjidong_16_1" shape="62.56,-47.25 79.73,-47.97 80.94,-50.16 82.53,-50.91 84.78,-51.42 87.70,-51.70 91.27,-51.75 91.42,-67.51 89.20,-68.52 88.43,-69.77 87.88,-71.52 87.56,-73.76 87.47,-76.49 62.80,-75.99 62.10,-73.80 61.19,-73.06 59.90,-72.55 58.24,-72.28 56.20,-72.25 55.84,-53.22 57.87,-53.02 59.53,-52.50 60.83,-51.67 61.77,-50.51 62.35,-49.04" name="jiashibei-changjidong">
+        <request index="0" response="000000000001100000" foes="000001100001100000" cont="0" />
+        <request index="1" response="111110000111100000" foes="111111100111100000" cont="0" />
+        <request index="2" response="111110000111100000" foes="111111100111100000" cont="0" />
+        <request index="3" response="111100010111100000" foes="111100110111100000" cont="0" />
+        <request index="4" response="000000000000000000" foes="110000010000000000" cont="0" />
+        <request index="5" response="000000000000000000" foes="110001110000001111" cont="0" />
+        <request index="6" response="000000000000000000" foes="110001110000001111" cont="0" />
+        <request index="7" response="001110000000000000" foes="001111110000001110" cont="0" />
+        <request index="8" response="001110000000000000" foes="001111110000001110" cont="0" />
+        <request index="9" response="001100000000000000" foes="001100000000000000" cont="0" />
+        <request index="10" response="111100000111110000" foes="111100000111111000" cont="0" />
+        <request index="11" response="111100000111101111" foes="111100000111101111" cont="0" />
+        <request index="12" response="111100000111100111" foes="111100000111100111" cont="0" />
+        <request index="13" response="000000000000000000" foes="000000000110000110" cont="0" />
+        <request index="14" response="000000000000000000" foes="000001111110001110" cont="0" />
+        <request index="15" response="000000000000000000" foes="000001111110001110" cont="0" />
+        <request index="16" response="000000000001110000" foes="000001110001111110" cont="0" />
+        <request index="17" response="000000000001110000" foes="000001110001111110" cont="0" />
+        <param key="origEdgeIds" value="-164316075#1 108718527#1 108718550#1 164316075#1 322110434#0" />
+        <param key="origId" value="1759597674 1759597726 3459234286 3459234288" />
+    </junction>
+    <junction id="jiashibei-chungui" type="traffic_light" x="361.28" y="-54.40" incLanes="chungui_ew_0_0 chungui_ew_0_1 jiashi_sn_0_0 jiashi_sn_0_1 xiaoqu_we_0_0 jiashi_ns_3_0 jiashi_ns_3_1" intLanes=":jiashibei-chungui_0_0 :jiashibei-chungui_1_0 :jiashibei-chungui_2_0 :jiashibei-chungui_3_0 :jiashibei-chungui_4_0 :jiashibei-chungui_4_1 :jiashibei-chungui_16_0 :jiashibei-chungui_7_0 :jiashibei-chungui_8_0 :jiashibei-chungui_8_1 :jiashibei-chungui_10_0 :jiashibei-chungui_11_0 :jiashibei-chungui_12_0 :jiashibei-chungui_12_1 :jiashibei-chungui_14_0 :jiashibei-chungui_14_1" shape="354.29,-41.38 372.36,-42.01 372.71,-44.54 373.24,-45.42 373.99,-46.05 374.98,-46.42 376.20,-46.54 376.27,-63.28 373.78,-63.40 371.74,-63.75 370.16,-64.31 369.02,-65.09 368.33,-66.09 368.09,-67.32 356.91,-67.13 356.11,-64.55 355.06,-63.67 353.58,-63.07 351.67,-62.74 349.33,-62.69 349.01,-47.22 351.94,-46.52 352.96,-45.71 353.70,-44.58 354.14,-43.14" name="jiashibei-chungui">
+        <request index="0" response="0000000000110000" foes="0000000000110000" cont="0" />
+        <request index="1" response="1111100001110000" foes="1111110001110000" cont="0" />
+        <request index="2" response="1111001101110000" foes="1111001101110000" cont="0" />
+        <request index="3" response="0000000000000000" foes="1100001100000000" cont="0" />
+        <request index="4" response="0000000000000000" foes="1100011100000111" cont="0" />
+        <request index="5" response="0000000000000000" foes="1100011100000111" cont="0" />
+        <request index="6" response="0011100000000000" foes="0111111100000110" cont="1" />
+        <request index="7" response="0011000000000000" foes="0011000000000000" cont="0" />
+        <request index="8" response="1111000001111000" foes="1111000001111100" cont="0" />
+        <request index="9" response="1111000001111000" foes="1111000001111100" cont="0" />
+        <request index="10" response="1111000001110010" foes="1111000001110010" cont="0" />
+        <request index="11" response="0000000000000000" foes="0000000001000010" cont="0" />
+        <request index="12" response="0000000000000000" foes="0000011111000110" cont="0" />
+        <request index="13" response="0000000000000000" foes="0000011111000110" cont="0" />
+        <request index="14" response="0000000001111000" foes="0000011101111110" cont="0" />
+        <request index="15" response="0000000000111000" foes="0000011100111110" cont="0" />
+        <param key="origEdgeIds" value="-1298839515 1298839515" />
+        <param key="origId" value="1759597941 1759598037" />
+    </junction>
+
+    <junction id=":jiashibei-chungui_16_0" type="internal" x="365.88" y="-54.61" incLanes=":jiashibei-chungui_6_0 jiashi_ns_3_0 jiashi_ns_3_1" intLanes=":jiashibei-chungui_1_0 :jiashibei-chungui_2_0 :jiashibei-chungui_8_0 :jiashibei-chungui_8_1 :jiashibei-chungui_10_0 :jiashibei-chungui_11_0 :jiashibei-chungui_12_0 :jiashibei-chungui_12_1" />
+
+    <connection from="changjidong_we_1" to="jiashi_ns_2" fromLane="0" toLane="0" via=":jiashibei-changjidong_9_0" tl="light_jiashibei-changjidong" linkIndex="9" dir="r" state="o" />
+    <connection from="changjidong_we_1" to="lvhuan_we_0" fromLane="1" toLane="0" via=":jiashibei-changjidong_10_0" tl="light_jiashibei-changjidong" linkIndex="10" dir="s" state="o" />
+    <connection from="changjidong_we_1" to="jiashi_sn_2" fromLane="2" toLane="0" via=":jiashibei-changjidong_11_0" tl="light_jiashibei-changjidong" linkIndex="11" dir="l" state="o" />
+    <connection from="changjidong_we_1" to="jiashi_sn_2" fromLane="3" toLane="1" via=":jiashibei-changjidong_11_1" tl="light_jiashibei-changjidong" linkIndex="12" dir="l" state="o" />
+    <connection from="chungui_ew_0" to="jiashi_sn_1" fromLane="0" toLane="0" via=":jiashibei-chungui_0_0" tl="light_jiashibei-chungui" linkIndex="0" dir="r" state="o" />
+    <connection from="chungui_ew_0" to="xiaoqu_ew_0" fromLane="1" toLane="0" via=":jiashibei-chungui_1_0" tl="light_jiashibei-chungui" linkIndex="1" dir="s" state="o" />
+    <connection from="chungui_ew_0" to="jiashi_ns_4" fromLane="1" toLane="1" via=":jiashibei-chungui_2_0" tl="light_jiashibei-chungui" linkIndex="2" dir="l" state="o" />
+    <connection from="jiashi_ns_1" to="changjidong_ew_0" fromLane="0" toLane="0" via=":jiashibei-changjidong_13_0" tl="light_jiashibei-changjidong" linkIndex="13" dir="r" state="O" />
+    <connection from="jiashi_ns_1" to="jiashi_ns_2" fromLane="1" toLane="0" via=":jiashibei-changjidong_14_0" tl="light_jiashibei-changjidong" linkIndex="14" dir="s" state="O" />
+    <connection from="jiashi_ns_1" to="jiashi_ns_2" fromLane="2" toLane="1" via=":jiashibei-changjidong_14_1" tl="light_jiashibei-changjidong" linkIndex="15" dir="s" state="O" />
+    <connection from="jiashi_ns_1" to="lvhuan_we_0" fromLane="2" toLane="0" via=":jiashibei-changjidong_16_0" tl="light_jiashibei-changjidong" linkIndex="16" dir="l" state="o" />
+    <connection from="jiashi_ns_1" to="lvhuan_we_0" fromLane="2" toLane="1" via=":jiashibei-changjidong_16_1" tl="light_jiashibei-changjidong" linkIndex="17" dir="l" state="o" />
+    <connection from="jiashi_ns_2" to="jiashi_ns_3" fromLane="0" toLane="0" via=":J0_0_0" dir="s" state="M" />
+    <connection from="jiashi_ns_2" to="jiashi_ns_3" fromLane="1" toLane="1" via=":J0_0_1" dir="s" state="M" />
+    <connection from="jiashi_ns_3" to="xiaoqu_ew_0" fromLane="0" toLane="0" via=":jiashibei-chungui_11_0" tl="light_jiashibei-chungui" linkIndex="11" dir="r" state="O" />
+    <connection from="jiashi_ns_3" to="jiashi_ns_4" fromLane="0" toLane="0" via=":jiashibei-chungui_12_0" tl="light_jiashibei-chungui" linkIndex="12" dir="s" state="O" />
+    <connection from="jiashi_ns_3" to="jiashi_ns_4" fromLane="1" toLane="1" via=":jiashibei-chungui_12_1" tl="light_jiashibei-chungui" linkIndex="13" dir="s" state="O" />
+    <connection from="jiashi_ns_3" to="chungui_we_0" fromLane="1" toLane="0" via=":jiashibei-chungui_14_0" tl="light_jiashibei-chungui" linkIndex="14" dir="l" state="o" />
+    <connection from="jiashi_ns_3" to="chungui_we_0" fromLane="1" toLane="1" via=":jiashibei-chungui_14_1" tl="light_jiashibei-chungui" linkIndex="15" dir="l" state="o" />
+    <connection from="jiashi_sn_0" to="chungui_we_0" fromLane="0" toLane="0" via=":jiashibei-chungui_3_0" tl="light_jiashibei-chungui" linkIndex="3" dir="r" state="O" />
+    <connection from="jiashi_sn_0" to="jiashi_sn_1" fromLane="0" toLane="0" via=":jiashibei-chungui_4_0" tl="light_jiashibei-chungui" linkIndex="4" dir="s" state="O" />
+    <connection from="jiashi_sn_0" to="jiashi_sn_1" fromLane="1" toLane="1" via=":jiashibei-chungui_4_1" tl="light_jiashibei-chungui" linkIndex="5" dir="s" state="O" />
+    <connection from="jiashi_sn_0" to="xiaoqu_ew_0" fromLane="1" toLane="0" via=":jiashibei-chungui_6_0" tl="light_jiashibei-chungui" linkIndex="6" dir="l" state="o" />
+    <connection from="jiashi_sn_1" to="lvhuan_we_0" fromLane="0" toLane="0" via=":jiashibei-changjidong_4_0" tl="light_jiashibei-changjidong" linkIndex="4" dir="r" state="O" />
+    <connection from="jiashi_sn_1" to="jiashi_sn_2" fromLane="0" toLane="0" via=":jiashibei-changjidong_5_0" tl="light_jiashibei-changjidong" linkIndex="5" dir="s" state="O" />
+    <connection from="jiashi_sn_1" to="jiashi_sn_2" fromLane="1" toLane="1" via=":jiashibei-changjidong_5_1" tl="light_jiashibei-changjidong" linkIndex="6" dir="s" state="O" />
+    <connection from="jiashi_sn_1" to="changjidong_ew_0" fromLane="1" toLane="0" via=":jiashibei-changjidong_7_0" tl="light_jiashibei-changjidong" linkIndex="7" dir="l" state="o" />
+    <connection from="jiashi_sn_1" to="changjidong_ew_0" fromLane="1" toLane="1" via=":jiashibei-changjidong_7_1" tl="light_jiashibei-changjidong" linkIndex="8" dir="l" state="o" />
+    <connection from="lvhuan_ew_0" to="jiashi_sn_2" fromLane="0" toLane="0" via=":jiashibei-changjidong_0_0" tl="light_jiashibei-changjidong" linkIndex="0" dir="r" state="o" />
+    <connection from="lvhuan_ew_0" to="changjidong_ew_0" fromLane="0" toLane="0" via=":jiashibei-changjidong_1_0" tl="light_jiashibei-changjidong" linkIndex="1" dir="s" state="o" />
+    <connection from="lvhuan_ew_0" to="changjidong_ew_0" fromLane="1" toLane="1" via=":jiashibei-changjidong_1_1" tl="light_jiashibei-changjidong" linkIndex="2" dir="s" state="o" />
+    <connection from="lvhuan_ew_0" to="jiashi_ns_2" fromLane="1" toLane="1" via=":jiashibei-changjidong_3_0" tl="light_jiashibei-changjidong" linkIndex="3" dir="l" state="o" />
+    <connection from="xiaoqu_we_0" to="jiashi_ns_4" fromLane="0" toLane="0" via=":jiashibei-chungui_7_0" tl="light_jiashibei-chungui" linkIndex="7" dir="r" state="o" />
+    <connection from="xiaoqu_we_0" to="chungui_we_0" fromLane="0" toLane="0" via=":jiashibei-chungui_8_0" tl="light_jiashibei-chungui" linkIndex="8" dir="s" state="o" />
+    <connection from="xiaoqu_we_0" to="chungui_we_0" fromLane="0" toLane="1" via=":jiashibei-chungui_8_1" tl="light_jiashibei-chungui" linkIndex="9" dir="s" state="o" />
+    <connection from="xiaoqu_we_0" to="jiashi_sn_1" fromLane="0" toLane="1" via=":jiashibei-chungui_10_0" tl="light_jiashibei-chungui" linkIndex="10" dir="l" state="o" />
+
+    <connection from=":J0_0" to="jiashi_ns_3" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":J0_0" to="jiashi_ns_3" fromLane="1" toLane="1" dir="s" state="M" />
+    <connection from=":jiashibei-changjidong_0" to="jiashi_sn_2" fromLane="0" toLane="0" dir="r" state="M" />
+    <connection from=":jiashibei-changjidong_1" to="changjidong_ew_0" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":jiashibei-changjidong_1" to="changjidong_ew_0" fromLane="1" toLane="1" dir="s" state="M" />
+    <connection from=":jiashibei-changjidong_3" to="jiashi_ns_2" fromLane="0" toLane="1" dir="l" state="M" />
+    <connection from=":jiashibei-changjidong_4" to="lvhuan_we_0" fromLane="0" toLane="0" dir="r" state="M" />
+    <connection from=":jiashibei-changjidong_5" to="jiashi_sn_2" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":jiashibei-changjidong_5" to="jiashi_sn_2" fromLane="1" toLane="1" dir="s" state="M" />
+    <connection from=":jiashibei-changjidong_7" to="changjidong_ew_0" fromLane="0" toLane="0" dir="l" state="M" />
+    <connection from=":jiashibei-changjidong_7" to="changjidong_ew_0" fromLane="1" toLane="1" dir="l" state="M" />
+    <connection from=":jiashibei-changjidong_9" to="jiashi_ns_2" fromLane="0" toLane="0" dir="r" state="M" />
+    <connection from=":jiashibei-changjidong_10" to="lvhuan_we_0" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":jiashibei-changjidong_11" to="jiashi_sn_2" fromLane="0" toLane="0" dir="l" state="M" />
+    <connection from=":jiashibei-changjidong_11" to="jiashi_sn_2" fromLane="1" toLane="1" dir="l" state="M" />
+    <connection from=":jiashibei-changjidong_13" to="changjidong_ew_0" fromLane="0" toLane="0" dir="r" state="M" />
+    <connection from=":jiashibei-changjidong_14" to="jiashi_ns_2" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":jiashibei-changjidong_14" to="jiashi_ns_2" fromLane="1" toLane="1" dir="s" state="M" />
+    <connection from=":jiashibei-changjidong_16" to="lvhuan_we_0" fromLane="0" toLane="0" dir="l" state="M" />
+    <connection from=":jiashibei-changjidong_16" to="lvhuan_we_0" fromLane="1" toLane="1" dir="l" state="M" />
+    <connection from=":jiashibei-chungui_0" to="jiashi_sn_1" fromLane="0" toLane="0" dir="r" state="M" />
+    <connection from=":jiashibei-chungui_1" to="xiaoqu_ew_0" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":jiashibei-chungui_2" to="jiashi_ns_4" fromLane="0" toLane="1" dir="l" state="M" />
+    <connection from=":jiashibei-chungui_3" to="chungui_we_0" fromLane="0" toLane="0" dir="r" state="M" />
+    <connection from=":jiashibei-chungui_4" to="jiashi_sn_1" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":jiashibei-chungui_4" to="jiashi_sn_1" fromLane="1" toLane="1" dir="s" state="M" />
+    <connection from=":jiashibei-chungui_6" to="xiaoqu_ew_0" fromLane="0" toLane="0" via=":jiashibei-chungui_16_0" dir="l" state="m" />
+    <connection from=":jiashibei-chungui_16" to="xiaoqu_ew_0" fromLane="0" toLane="0" dir="l" state="M" />
+    <connection from=":jiashibei-chungui_7" to="jiashi_ns_4" fromLane="0" toLane="0" dir="r" state="M" />
+    <connection from=":jiashibei-chungui_8" to="chungui_we_0" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":jiashibei-chungui_8" to="chungui_we_0" fromLane="1" toLane="1" dir="s" state="M" />
+    <connection from=":jiashibei-chungui_10" to="jiashi_sn_1" fromLane="0" toLane="1" dir="l" state="M" />
+    <connection from=":jiashibei-chungui_11" to="xiaoqu_ew_0" fromLane="0" toLane="0" dir="r" state="M" />
+    <connection from=":jiashibei-chungui_12" to="jiashi_ns_4" fromLane="0" toLane="0" dir="s" state="M" />
+    <connection from=":jiashibei-chungui_12" to="jiashi_ns_4" fromLane="1" toLane="1" dir="s" state="M" />
+    <connection from=":jiashibei-chungui_14" to="chungui_we_0" fromLane="0" toLane="0" dir="l" state="M" />
+    <connection from=":jiashibei-chungui_14" to="chungui_we_0" fromLane="1" toLane="1" dir="l" state="M" />
+
+</net>
