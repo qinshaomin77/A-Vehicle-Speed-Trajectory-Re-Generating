@@ -4,13 +4,13 @@
 """
 Identify preceding & following vehicles across multi-lane networks using FCD (floating car data).
 
-Features
-- CLI arguments (no hardcoded paths)
-- Cross-platform paths (pathlib)
-- Logging instead of prints/emojis
-- Parallel processing with initializer to avoid repeated pickling
-- Input validation with clear errors
-- Progress bar (tqdm) optional
+Inputs
+FCD CSV with columns:
+timestep_time, vehicle_id, vehicle_lane, vehicle_speed, vehicle_pos
+Lane attributes CSV with columns:
+lane_id, next_lane_id (each row indicates a directed connection lane_id -> next_lane_id)
+Lane lengths CSV with columns:
+lane_id (or vehicle_lane), length
 """
 
 from __future__ import annotations
