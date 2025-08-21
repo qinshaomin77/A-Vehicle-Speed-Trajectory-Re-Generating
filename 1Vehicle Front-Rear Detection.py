@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: QSM
-"""
-
 import pandas as pd
 from datetime import datetime
 import numpy as np
@@ -171,15 +166,14 @@ def process_timestep_lane(data_tuple):
     return result.to_dict(orient='records')
 
 
-#%%
 if __name__ == '__main__':
-    print("🚀 程序开始执行...")
+    print("🚀 Program started...")
     kaishi_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
     global_start_time = time.time()
 
     cpu_count = multiprocessing.cpu_count()
     max_workers = min(61, cpu_count)
-    print(f"💡 CPU核心数: {cpu_count}，使用并发进程数: {max_workers}")
+    print(f"💡 CPU cores: {cpu_count}, worker processes: {max_workers}")
 
     # === Build task list (group by timestep_time and lane_id) ===
     group_dict = defaultdict(list)
@@ -187,16 +181,13 @@ if __name__ == '__main__':
         group_dict[(timestep_time, lane_id)].append(group)
 
     task_list = [(t, l, pd.concat(glist)) for (t, l), glist in group_dict.items()]
-    print(f"📦 待处理的 timestep-lane 分组任务数：{len(task_list)}")
+    print(f"📦 Number of timestep-lane grouped tasks: {len(task_list)}")
 
     # === Parallel processing (with progress bar) ===
     all_results = []
-    # for idx, task in enumerate(task_list, 1):
-    #     res = process_timestep_lane(task)
-    #     all_results.extend(res)
 
     with ProcessPoolExecutor(max_workers=max_workers) as executor:
-        for res in tqdm(executor.map(process_timestep_lane, task_list), total=len(task_list), desc="🚗 正在处理"):
+        for res in tqdm(executor.map(process_timestep_lane, task_list), total=len(task_list), desc="🚗 Processing"):
             all_results.extend(res)
 
     # === Merge and save results ===
@@ -207,7 +198,7 @@ if __name__ == '__main__':
     save_path = os.path.join(output_dir, f'{filename}_前后车辆识别.csv')
     merged_df.to_csv(save_path, index=False, encoding='utf-8')
 
-    print(f"\n📄 结果保存至：{save_path}")
-    print(f"🕒 程序开始时间: {kaishi_time}")
-    print(f"✅ 程序结束时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}")
-    print(f"⏱ 总运行时长: {(time.time() - global_start_time) / 60:.2f} 分钟")
+    print(f"\n📄 Results saved to: {save_path}")
+    print(f"🕒 Start time: {kaishi_time}")
+    print(f"✅ End time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}")
+    print(f"⏱ Total runtime: {(time.time() - global_start_time) / 60:.2f} minutes")
