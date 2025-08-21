@@ -22,6 +22,3 @@
 $ conda create -n retraj python=3.8
 ```
 
-# 📊 Data Preparation
-
-Download the DeepCAD data from [here](https://github.com/ChrisWu1997/DeepCAD?tab=readme-ov-file#data).
