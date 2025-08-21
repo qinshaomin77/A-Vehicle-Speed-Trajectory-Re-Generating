@@ -14,7 +14,7 @@ import os
 from tqdm import tqdm
 from collections import defaultdict
 
-# ===== 数据文件路径 =====
+# ===== Data file paths =====
 output_dir = r'I:\qsm_file\跟驰参数默认\数据_20250817'
 os.makedirs(output_dir, exist_ok=True)
 filename = '仿真浮动车工况数据_1'
@@ -25,13 +25,13 @@ filename_path = r"I:\qsm_file\跟驰参数默认\数据_20250817\仿真浮动车
 lane_file = r"H:\qsm_file\仿真地图数据\SUMO_NET_lane_attributes（edge）.csv"
 length_file = r"H:\qsm_file\仿真地图数据\SUMO_NET_lane_lengths（edge）.csv"
 
-# === 预加载静态数据（用于映射） ===
+# === Preload static data (for mapping) ===
 lane_df = pd.read_csv(lane_file)
 length_df = pd.read_csv(length_file)
 length_df.rename(columns={'lane_id': 'vehicle_lane', 'length': 'lane_length'}, inplace=True)
 lane_length_map = dict(zip(length_df['vehicle_lane'], length_df['lane_length']))
 
-# === 构建一对多车道连接映射 ===
+# === Build one-to-many lane connection mappings ===
 lane_next_map = defaultdict(list)
 lane_prev_map = defaultdict(list)
 
@@ -39,7 +39,7 @@ for _, row in lane_df.iterrows():
     lane_next_map[row['lane_id']].append(row['next_lane_id'])
     lane_prev_map[row['next_lane_id']].append(row['lane_id'])
 
-# === 载入主数据 ===
+# === Load main dataset ===
 fcd_df = pd.read_csv(filename_path)
 fcd_df = pd.merge(fcd_df, length_df, on='vehicle_lane', how='left')
 fcd_df['vehicle_edge'] = fcd_df['vehicle_lane'].str.extract(r'(.*)_\d+$')[0]
@@ -53,27 +53,27 @@ def process_timestep_lane(data_tuple):
     timestep_time, lane_id, df = data_tuple
     lane_length = lane_length_map.get(lane_id, 0)
 
-    # ---------- 前车候选（next） ----------
+    # ---------- Candidate preceding vehicles (next) ----------
     next_lane_list = lane_next_map.get(lane_id, [])
     next_lanes, next_offsets = [], []
 
-    # 同车道：参与前车匹配，偏移 = 0
+    # Same lane: include in preceding-vehicle matching, offset = 0
     next_lanes.append(lane_id)
     next_offsets.append(0)
 
-    # 第一层：偏移 = 当前 lane 的长度
+    # First layer: offset = length of the current lane
     for nl in next_lane_list:
         next_lanes.append(nl)
-        next_offsets.append(lane_length)  # 累计：到第一层next为止
+        next_offsets.append(lane_length)  # Cumulative: up to the first-layer next
 
-    # 第二层：偏移 = 当前 lane 的长度 + 对应上一层 next 的长度
+    # Second layer: offset = current lane length + previous layer's next-lane length
     for nl in next_lane_list:
-        nl_len = lane_length_map.get(nl, 0)  # 对应上一层 next 的长度
+        nl_len = lane_length_map.get(nl, 0)  # Length of the previous-layer next lane
         for n2 in lane_next_map.get(nl, []):
             next_lanes.append(n2)
-            next_offsets.append(lane_length + nl_len)  # 累计到第二层
+            next_offsets.append(lane_length + nl_len)  # Cumulative up to the second layer
 
-    # 若担心重复，可去重：保留最小偏移
+    # Deduplicate if needed: keep the smallest offset per lane
     tmp = {}
     for l, off in zip(next_lanes, next_offsets):
         tmp[l] = min(off, tmp.get(l, float('inf')))
@@ -88,28 +88,28 @@ def process_timestep_lane(data_tuple):
     next_offset = next_df['vehicle_lane'].map(next_length).fillna(0)
     next_df['position_preceding'] = next_df['vehicle_pos'] + next_offset
 
-
-    # ---------- 后车候选（prev） ----------
+    # ---------- Candidate following vehicles (prev) ----------
     previous_lane_list = lane_prev_map.get(lane_id, [])
     prev_lanes, prev_offsets = [], []
 
-    # 同车道：参与后车匹配，偏移 = 0
+    # Same lane: include in following-vehicle matching, offset = 0
     prev_lanes.append(lane_id)
     prev_offsets.append(0)
 
-    # 第一层：偏移量 = 前序车道本身的长度（因为后车在前序车道，需要减去这段长度）
+    # First layer: offset = length of the predecessor lane
+    # (because the following vehicle is on the predecessor lane, subtract this length)
     for pl in previous_lane_list:
         prev_lanes.append(pl)
         pl_length = lane_length_map.get(pl, 0)
-        prev_offsets.append(pl_length)  # 累计：到第一层next为止
+        prev_offsets.append(pl_length)  # Cumulative: up to the first layer
 
-    # 第二层：偏移量 = 第一层前序车道的长度 + 第二层前序车道的长度
+    # Second layer: offset = length of first-layer predecessor + length of second-layer predecessor
     for pl in previous_lane_list:
-        pl_len = lane_length_map.get(pl, 0)  # 对应上一层 next 的长度
+        pl_len = lane_length_map.get(pl, 0)  # Length of the previous-layer predecessor lane
         for p2 in lane_prev_map.get(pl, []):
             prev_lanes.append(p2)
             pl2_len = lane_length_map.get(p2, 0)
-            prev_offsets.append(pl_len + pl2_len)  # 累计到第二层
+            prev_offsets.append(pl_len + pl2_len)  # Cumulative up to the second layer
 
     prev_length = dict(zip(prev_lanes, prev_offsets))
     prev_df = fcd_data[
@@ -119,15 +119,14 @@ def process_timestep_lane(data_tuple):
     prev_offset = prev_df['vehicle_lane'].map(prev_length).fillna(0)
     prev_df['position_following'] = prev_df['vehicle_pos'] - prev_offset
 
-
-    # === 当前车数据 ===
+    # === Current vehicle data ===
     df = df.copy()
     df['position'] = df['vehicle_pos']
     df = df.sort_values('position')
     next_df = next_df.sort_values('position_preceding').reset_index(drop=True)
     prev_df = prev_df.sort_values('position_following').reset_index(drop=True)
 
-    # === 前车匹配（merge_asof）===
+    # === Preceding vehicle matching (merge_asof) ===
     result_front = pd.merge_asof(
         df,
         next_df,
@@ -139,7 +138,7 @@ def process_timestep_lane(data_tuple):
     )
     result_front['following_headway_distance'] = result_front['position_preceding'] - result_front['position']
 
-    # === 后车匹配（merge_asof）===
+    # === Following vehicle matching (merge_asof) ===
     result_both = pd.merge_asof(
         result_front,
         prev_df,
@@ -151,7 +150,7 @@ def process_timestep_lane(data_tuple):
     )
     result_both['preceding_headway_distance'] = result_both['position'] - result_both['position_following']
 
-    # === 输出字段整理 ===
+    # === Output field aggregation ===
     result = result_both[[
         'vehicle_id', 'timestep_time',
         'vehicle_id_preceding', 'vehicle_pos_preceding', 'vehicle_speed_preceding', 'vehicle_lane_preceding',
@@ -172,8 +171,6 @@ def process_timestep_lane(data_tuple):
     return result.to_dict(orient='records')
 
 
-
-
 #%%
 if __name__ == '__main__':
     print("🚀 程序开始执行...")
@@ -184,7 +181,7 @@ if __name__ == '__main__':
     max_workers = min(61, cpu_count)
     print(f"💡 CPU核心数: {cpu_count}，使用并发进程数: {max_workers}")
 
-    # === 构造任务列表（timestep_time, lane_id 分组）===
+    # === Build task list (group by timestep_time and lane_id) ===
     group_dict = defaultdict(list)
     for (timestep_time, lane_id), group in fcd_data.groupby(['timestep_time', 'vehicle_lane']):
         group_dict[(timestep_time, lane_id)].append(group)
@@ -192,7 +189,7 @@ if __name__ == '__main__':
     task_list = [(t, l, pd.concat(glist)) for (t, l), glist in group_dict.items()]
     print(f"📦 待处理的 timestep-lane 分组任务数：{len(task_list)}")
 
-    # === 并行处理（带进度条） ===
+    # === Parallel processing (with progress bar) ===
     all_results = []
     # for idx, task in enumerate(task_list, 1):
     #     res = process_timestep_lane(task)
@@ -202,7 +199,7 @@ if __name__ == '__main__':
         for res in tqdm(executor.map(process_timestep_lane, task_list), total=len(task_list), desc="🚗 正在处理"):
             all_results.extend(res)
 
-    # === 合并并保存结果 ===
+    # === Merge and save results ===
     results_df = pd.DataFrame(all_results)
     merged_df = pd.merge(fcd_df, results_df, on=['vehicle_id', 'timestep_time'], how='left')
     merged_df.sort_values(by=['vehicle_id', 'timestep_time'], inplace=True, ignore_index=True)
