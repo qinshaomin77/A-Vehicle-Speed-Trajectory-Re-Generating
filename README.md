@@ -22,3 +22,23 @@
 $ conda create -n retraj python=3.8
 ```
 
+# 💻 Run Demo
+
+
+In the `Cad_VLM/config/inference_user_input.yaml`, provide the following path.
+
+<details><summary>Required Updates in yaml</summary>
+<p>
+
+- `cache_dir`: The directory to load model weights from Huggingface.
+- `log_dir`: Directory for saving _logs, outputs, checkpoints_.
+- `checkpoint_path`: The path to model weights.
+
+</p>
+</details> 
+<br>
+
+```bash
+$ cd App
+$ gradio app.py
+```
