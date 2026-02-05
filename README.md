@@ -8,10 +8,6 @@
 
 </div>
 
-
-# ⚙️ Installation
-
-
 ## Prerequisites
 
 - Windows 10/11（x64）
@@ -19,11 +15,14 @@
 - SUMO 
 - Gurobi
 
-## 📦 Dependencies
+## Dependencies
+
+Install python package dependencies through pip:
 
 ```bash
-$ conda create -n rvst python=3.9
+$ pip install -r requirements.txt
 ```
+
 
 # 💻 Run Demo
 
