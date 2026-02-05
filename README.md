@@ -36,3 +36,5 @@ Install the required Python dependencies via pip:
 $ pip install -r requirements.txt
 ```
 
+## License
+Please see the [LICENSE](LICENSE) for further details.
