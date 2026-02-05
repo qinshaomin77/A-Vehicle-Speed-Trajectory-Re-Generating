@@ -1,6 +1,6 @@
 <div align="center">
 
-# A Vehicle Speed Trajectory Re-Generating Toolkit Connecting Traffic Microsimulation Tools with Vehicle Emission Models
+# A Method for Re-Generating Vehicle Speed Trajectories to Connect Traffic Microsimulation with Vehicle Emission Models
 
 
 [Shaomin Qin](https://github.com/qinshaomin77)· [Haobing Liu](https://scholar.google.com/citations?user=e-8R2vMAAAAJ&hl=en)
