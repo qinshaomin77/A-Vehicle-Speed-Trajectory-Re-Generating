@@ -19,7 +19,7 @@
 ## 📦 Dependencies
 
 ```bash
-$ conda create -n retraj python=3.9
+$ conda create -n rvst python=3.9
 ```
 
 # 💻 Run Demo
