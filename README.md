@@ -1,6 +1,6 @@
 <div align="center">
 
-# RVST: A Method for Re-Generating Vehicle Speed Trajectories to Connect Traffic Microsimulation with Vehicle Emission Models
+# RVST: A Method for Regenerating Vehicle Speed Trajectories to Connect Traffic Microsimulation with Vehicle Emission Models
 
 
 [Shaomin Qin](https://github.com/qinshaomin77)· [Haobing Liu](https://scholar.google.com/citations?user=e-8R2vMAAAAJ&hl=en)
