@@ -17,6 +17,13 @@
 
 ## Dependencies
 
+This project requires the following external tools in addition to Python packages.
+
+### 1) SUMO (Eclipse SUMO)
+Please install SUMO and make sure `sumo` / `sumo-gui` are available in your system PATH.
+- Official installation guide: https://sumo.dlr.de/docs/Downloads.php
+- Documentation: https://sumo.dlr.de/docs/
+
 Install python package dependencies through pip:
 
 ```bash
