@@ -30,9 +30,8 @@ Please install `Gurobi` and activate a license (academic or commercial).
 - License request / activation: https://www.gurobi.com/downloads/end-user-license-agreement/
 - Academic license info: https://www.gurobi.com/academia/academic-program-and-licenses/
 
-### 3) Gurobi Optimizer (License required)
-Install python package dependencies through pip:
-
+### 3) Python Packages (requirements.txt)
+Install the required Python dependencies via pip:
 ```bash
 $ pip install -r requirements.txt
 ```
