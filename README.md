@@ -25,11 +25,12 @@ Please install SUMO and make sure `sumo` / `sumo-gui` are available in your syst
 - Documentation: https://sumo.dlr.de/docs/
   
 ### 2) Gurobi Optimizer (License required)
-Please install SUMO and make sure `Gurobi`, and activate a license (academic or commercial).
+Please install `Gurobi` and activate a license (academic or commercial).
 - Download & installation: https://www.gurobi.com/downloads/
 - License request / activation: https://www.gurobi.com/downloads/end-user-license-agreement/
 - Academic license info: https://www.gurobi.com/academia/academic-program-and-licenses/
 
+### 3) Gurobi Optimizer (License required)
 Install python package dependencies through pip:
 
 ```bash
